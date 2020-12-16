@@ -1,9 +1,9 @@
 class ResultSearch {
-  final String title;
-  final String content;
-  final String img;
+  final String login;
+  final String url;
+  final String avatar_url;
 
-  ResultSearch({this.title, this.content, this.img});
+  ResultSearch({this.login, this.url, this.avatar_url});
 
   //Nao colocaremos metodos como FromJson e ToJson aqui pq nao sera a responsabilidade dessa classe.
 
